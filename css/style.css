@@ -378,7 +378,7 @@ banner section end
 }
 
 .our_work_img_box_rgt_one {
-   background: url(../img/Card_02.png) no-repeat center;
+   background: url(../img/Rectangle_01.png) no-repeat center;
    background-size: cover;
    height: 280px;
    margin-bottom: 30px;
@@ -430,7 +430,7 @@ banner section end
 
 .our_work_img_box_rgt_two {
    height: 280px;
-   background: url(../img/Rectangle_01.png) no-repeat center;
+   background: url(../img/Card_02.png) no-repeat center;
    background-size: cover;
 }
 
