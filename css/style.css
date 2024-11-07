@@ -309,6 +309,8 @@ banner section end
 .our_work_img_box_lft {
    width: 70%;
    height: 600px;
+   background: url(../img/Card_01.png) no-repeat center;
+   background-size: cover;
    overflow: hidden;
    position: relative;
 }
@@ -372,10 +374,12 @@ banner section end
 }
 
 .our_work_img_box_rgt {
-   width: 40%;
+   width: 45%;
 }
 
 .our_work_img_box_rgt_one {
+   background: url(../img/Card_02.png) no-repeat center;
+   background-size: cover;
    height: 280px;
    margin-bottom: 30px;
    overflow: hidden;
@@ -383,18 +387,18 @@ banner section end
 }
 
 .our_work_img_box_rgt_one:hover .our_work_img_box_rgt_one_text {
-   top: 0;
+   top:0%;
 }
 
 /* mmmmmmm */
 .our_work_img_box_rgt .our_work_img_box_rgt_one_text {
    width: 100%;
-   height: auto;
+   height: 280px;
    background-color: #1C1E53;
    opacity: 0.8;
    padding: 130px 60px 60px;
    position: absolute;
-   top: -102%;
+   top: -100%;
    right: 0;
    transition: 0.5s;
 }
@@ -426,6 +430,8 @@ banner section end
 
 .our_work_img_box_rgt_two {
    height: 280px;
+   background: url(../img/Rectangle_01.png) no-repeat center;
+   background-size: cover;
 }
 
 /*===========================
