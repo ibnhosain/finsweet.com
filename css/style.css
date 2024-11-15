@@ -17,9 +17,12 @@ body {
 a {
    text-decoration: none;
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
    color: rgb(255 189 189);
 }
+
 li {
    list-style: none;
 }
@@ -70,6 +73,7 @@ nav {
 .navbar-light .navbar-nav .show>.nav-link {
    color: white;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
    padding-right: .5rem;
    padding-left: 2.5rem;
@@ -83,11 +87,13 @@ nav {
 .navbar-light .navbar-nav .nav-link:hover {
    color: #ffffff;
 }
+
 .navbar-collapse {
    flex-basis: 100%;
    flex-grow: 0;
    align-items: center;
 }
+
 .contact_btn {
    width: 13%;
 }
@@ -128,11 +134,13 @@ banner section styling
 
 .header_text_box_one {
    width: 40%;
-   margin-left:0;
+   margin-left: 0;
 }
-.header_text_box_two{
+
+.header_text_box_two {
    width: 60%;
 }
+
 .header_text_box_one h1 {
    font-family: "Poppins", sans-serif;
    font-weight: 600;
@@ -153,7 +161,7 @@ banner section styling
 
 .banner_btn {
    width: 100%;
-   margin-top:0;
+   margin-top: 0;
 }
 
 .banner_btn .banner_btn_link {
@@ -1098,10 +1106,12 @@ banner section end
 .about_us_hero_left {
    width: 50%;
 }
+
 .about_us_hero_right {
    width: 50%;
 }
-.about_us_hero_right img{
+
+.about_us_hero_right img {
    width: auto;
 }
 
@@ -1445,29 +1455,33 @@ banner section end
    overflow: hidden;
    transition: 0.5s;
 }
+
 .card_poenter img {
    width: 100%;
    height: 100%;
 }
+
 #our_team_section .card_poenter .overly {
    position: absolute;
    width: 100%;
    height: 100%;
    border-radius: 50%;
-   background: url('../img/Ellipse\ 228.png') no-repeat center; 
+   background: url('../img/Ellipse\ 228.png') no-repeat center;
    background-size: cover;
-    bottom: -100%; 
+   bottom: -100%;
    left: 0;
-    opacity: 0.8; 
+   opacity: 0.8;
    transition: 0.5s;
    display: flex;
    justify-content: center;
    align-items: flex-end;
 }
+
 #our_team_section .card_poenter:hover .overly {
    bottom: 0%;
 }
-#our_team_section .overly .overly_inner{
+
+#our_team_section .overly .overly_inner {
    width: 100%;
    height: auto;
    display: flex;
@@ -1476,12 +1490,14 @@ banner section end
    margin-bottom: 15px;
    column-gap: 8px;
 }
+
 #our_team_section .overly .overly_inner img {
- width: 18px;
- opacity: 1;
+   width: 18px;
+   opacity: 1;
    transition: 0.5s;
    margin-top: 20px;
 }
+
 #our_team_section .card h4 {
    font-family: "Poppins", sans-serif;
    font-weight: 600;
@@ -1506,10 +1522,11 @@ banner section end
    border-radius: 50%;
    margin-bottom: 10px;
 }
+
 /*============================
     Our Team section end
  =============================*/
-                                    /*============================
+/*============================
                                     About Us page styale end
                                     =============================*/
 /*============================
@@ -1539,39 +1556,48 @@ features page styalig start
    background: #ffffff;
    color: #1C1E53;
 }
-.header_text_box_one_paragraph{
+
+.header_text_box_one_paragraph {
    margin: 30px 0;
 }
+
 #benefits_section .benefits_box_botoom_feature {
    column-gap: 100px;
    margin-top: 80px;
    margin-bottom: 50px;
 }
-.faq_section_box_feature{
+
+.faq_section_box_feature {
    display: flex;
    align-items: flex-start;
    column-gap: 100px;
 }
+
 /*============================
     Features section start
  =============================*/
- #features_section {
+#features_section {
    width: 100%;
    height: auto;
    margin: 100px 0;
 }
-.features_box{
+
+.features_box {
    column-gap: 100px;
 }
+
 #features_section .features_box_inner_left {
    width: 50%;
 }
+
 #features_section .features_box_inner_right {
    width: 50%;
 }
+
 #features_section .features_box_inner_right img {
    width: 100%;
 }
+
 #features_section .features_box_inner_left::first-line {
    color: #282938;
    font-family: "Poppins", sans-serif;
@@ -1581,9 +1607,10 @@ features page styalig start
    line-height: 32px;
    opacity: 87%;
 }
+
 #features_section .features_box_inner_left h3 {
    width: 500px;
-  font-family: "Poppins", sans-serif;
+   font-family: "Poppins", sans-serif;
    font-weight: 600;
    font-style: normal;
    font-size: 32px;
@@ -1591,6 +1618,7 @@ features page styalig start
    color: #282938;
    margin: 10px 0;
 }
+
 #features_section .features_box_inner_left p {
    width: 575px;
    font-family: "Poppins", sans-serif;
@@ -1609,29 +1637,32 @@ features page styalig start
 /*============================
     Free Revisions section start 
  =============================*/
- #free_revisions_section{
+#free_revisions_section {
    width: 100%;
    height: auto;
    margin: 100px 0;
    background-color: #F4F6FC;
    padding: 100px 0;
- }
- #free_revisions_section .free_revisions_box {
+}
+
+#free_revisions_section .free_revisions_box {
    column-gap: 150px;
    align-items: center;
- }
- #free_revisions_section .free_revisions_box_left {
-   width: 50%;
- }
- 
- #free_revisions_section .free_revisions_box_left img {
-   width: 100%;
- }
+}
 
- #free_revisions_section .free_revisions_box_right {
-   width:50%
- }
- #free_revisions_section .free_revisions_box_right h3 {
+#free_revisions_section .free_revisions_box_left {
+   width: 50%;
+}
+
+#free_revisions_section .free_revisions_box_left img {
+   width: 100%;
+}
+
+#free_revisions_section .free_revisions_box_right {
+   width: 50%
+}
+
+#free_revisions_section .free_revisions_box_right h3 {
    font-family: "Poppins", sans-serif;
    font-weight: 600;
    font-style: normal;
@@ -1639,8 +1670,9 @@ features page styalig start
    line-height: 48px;
    color: #232536;
    margin: 10px 0;
- }
- #free_revisions_section .free_revisions_box_right p:first-child {
+}
+
+#free_revisions_section .free_revisions_box_right p:first-child {
    font-family: "Poppins", sans-serif;
    font-weight: 500;
    font-style: normal;
@@ -1649,9 +1681,10 @@ features page styalig start
    color: #000000;
    opacity: 87%;
    margin: 10px 0;
- }
- #free_revisions_section .free_revisions_box_right p:last-child {
-  width: 575px;
+}
+
+#free_revisions_section .free_revisions_box_right p:last-child {
+   width: 575px;
    font-family: "Poppins", sans-serif;
    font-weight: 400;
    font-style: normal;
@@ -1660,29 +1693,32 @@ features page styalig start
    color: #232536;
    opacity: 0.6;
    margin: 10px 0;
- }
+}
+
 /*============================
     Free Revisions section end
  =============================*/
- 
+
 /*============================
     Support  section start
  =============================*/
- #support_section {
+#support_section {
    width: 100%;
    height: auto;
    margin: 100px 0;
- }
- #support_section .support_box {
+}
+
+#support_section .support_box {
    column-gap: 100px;
    align-items: center;
- }
- #support_section .support_box_left {
+}
+
+#support_section .support_box_left {
    width: 50%;
- }
- 
- #support_section .support_box_left p:first-child {
-  font-family: "Poppins", sans-serif;
+}
+
+#support_section .support_box_left p:first-child {
+   font-family: "Poppins", sans-serif;
    font-weight: 500;
    font-style: normal;
    font-size: 18px;
@@ -1690,8 +1726,9 @@ features page styalig start
    color: #000000;
    opacity: 87%;
    margin: 10px 0;
- }
- #support_section .support_box_left h3 {
+}
+
+#support_section .support_box_left h3 {
    width: 500px;
    font-family: "Poppins", sans-serif;
    font-weight: 600;
@@ -1700,9 +1737,10 @@ features page styalig start
    line-height: 48px;
    color: #232536;
    margin: 10px 0;
- }
- #support_section .support_box_left p:last-child {
-  width: 575px;
+}
+
+#support_section .support_box_left p:last-child {
+   width: 575px;
    font-family: "Poppins", sans-serif;
    font-weight: 400;
    font-style: normal;
@@ -1711,44 +1749,49 @@ features page styalig start
    color: #232536;
    opacity: 0.6;
    margin: 10px 0;
- }
+}
 
- #support_section .support_box_right {
-   width:50%
- }
- #support_section .support_box_right img {
+#support_section .support_box_right {
+   width: 50%
+}
+
+#support_section .support_box_right img {
    width: 100%;
- }
+}
+
 /*============================
     Support section end
  =============================*/
- 
+
 /*============================
     Quick Deliver section start
  =============================*/
- #quick_deliver_section {
+#quick_deliver_section {
    width: 100%;
    height: auto;
    margin: 100px 0;
    background: #fffbf2;
    padding: 100px 0;
- }
- #quick_deliver_section .quick_deliver_box {
+}
+
+#quick_deliver_section .quick_deliver_box {
    column-gap: 100px;
    align-items: center;
- }
- 
- #quick_deliver_section .quick_deliver_box_left {
+}
+
+#quick_deliver_section .quick_deliver_box_left {
    width: 50%;
- }
- 
- #quick_deliver_section .quick_deliver_box_left img {
+}
+
+#quick_deliver_section .quick_deliver_box_left img {
    width: 100%;
- }
- #quick_deliver_section .quick_deliver_box_right {
-   width:50%
- }
- #quick_deliver_section .quick_deliver_box_right h3 {
+}
+
+#quick_deliver_section .quick_deliver_box_right {
+   width: 50%
+}
+
+#quick_deliver_section .quick_deliver_box_right h3 {
    font-family: "Poppins", sans-serif;
    font-weight: 600;
    font-style: normal;
@@ -1756,8 +1799,9 @@ features page styalig start
    line-height: 48px;
    color: #232536;
    margin: 10px 0;
- }
- #quick_deliver_section .quick_deliver_box_right p:first-child {
+}
+
+#quick_deliver_section .quick_deliver_box_right p:first-child {
    font-family: "Poppins", sans-serif;
    font-weight: 500;
    font-style: normal;
@@ -1766,9 +1810,10 @@ features page styalig start
    color: #000000;
    opacity: 87%;
    margin: 10px 0;
- }
- #quick_deliver_section .quick_deliver_box_right p:last-child {
-  width: 575px;
+}
+
+#quick_deliver_section .quick_deliver_box_right p:last-child {
+   width: 575px;
    font-family: "Poppins", sans-serif;
    font-weight: 400;
    font-style: normal;
@@ -1777,196 +1822,1381 @@ features page styalig start
    color: #232536;
    opacity: 0.6;
    margin: 10px 0;
- }
+}
+
 /*============================
     Quick Deliver section end
  =============================*/
-                                          /*============================
+/*============================
                                           pricing page start
                                           =============================*/
 /* ==============================
 prise section start
    =================================*/
-   #pricing_section {
-     width: 100%;
-     height: auto;
-     margin: 100px 0 0 0;
-   }
-   #pricing_section .container_flex {
-     text-align: center;
-    justify-content: center;
-   }
-   #pricing_section .prise_box {
-     align-items: center;
-   }
-   #pricing_section .pricing_heading_box h3 {
-     font-family: "Poppins", sans-serif;
-     font-weight: 600;
-     font-style: normal;
-     font-size: 40px;
-     line-height: 50px;
-     color: #282938;
-     margin: 10px 0;
-   }
-   #pricing_section .pricing_heading_box p{
-      width: 550px;
-      font-family: "Poppins", sans-serif;
-     font-weight: 400;
-     font-style: normal;
-     font-size: 16px;
-     line-height: 26px;
-     color: #282938;
-     opacity: 0.7;
-     margin: 10px 0;
-   }
-   /*============================
+#pricing_section {
+   width: 100%;
+   height: auto;
+   margin: 100px 0 0 0;
+}
+
+#pricing_section .container_flex {
+   text-align: center;
+   justify-content: center;
+}
+
+#pricing_section .prise_box {
+   align-items: center;
+}
+
+#pricing_section .pricing_heading_box h3 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 40px;
+   line-height: 50px;
+   color: #282938;
+   margin: 10px 0;
+}
+
+#pricing_section .pricing_heading_box p {
+   width: 550px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #282938;
+   opacity: 0.7;
+   margin: 10px 0;
+}
+
+/*============================
     prise section section end
  =============================*/
 
 
-   /*============================
+/*============================
     Pricing Card section strart
  =============================*/
- #pricing_card_section {
-     width: 100%;
-     height: auto;
-     margin: 100px 0;
-   }
-   #pricing_card_section .container_flex {
-    column-gap:45px ;
-   }
-   #pricing_card_section .card {
-    padding: 45px;
-    background-color: #F4F6FC;
-    width: auto;
-    height: 745px;
-   }
-   #pricing_card_section .card_top_text {
-     margin: 0 0 70px 0;
-   }
-   #pricing_card_section .card_top_text .card-price {
-     font-family: "Poppins", sans-serif;
-     font-weight: 600;
-     font-style: normal;
-     font-size: 40px;
-     line-height: 50px;
-     color: #282938;
-     margin: 10px 0;
-     vertical-align: middle;
-   }
-   #pricing_card_section .card_top_text span {
-     font-family: "Poppins", sans-serif;
-     font-weight: 400;
-     font-style: normal;
-     font-size: 16px;
-     line-height: 26px;
-     color: #2405F2;
-     opacity: 100%;
-     margin: 10px 0;
-     margin-left: 10px;
-     vertical-align: middle;
-   }
-   #pricing_card_section .card_top_text h6 {
-     font-family: "Poppins", sans-serif;
-     font-weight: 600;
-     font-style: normal;
-     font-size: 25px;
-     line-height: 38px;
-     color: #282938;
-     margin: 10px 0;
-   }
-   #pricing_card_section .card_top_text p {
-      width: 300px;
-     font-family: "Poppins", sans-serif;
-     font-weight: 400;
-     font-style: normal;
-     font-size: 16px;
-     line-height: 28px;
-     color: #282938;
-     opacity: 0.7;
-     margin: 10px 0;
-   }
-   #pricing_card_section .card-list_item{
-      font-family: "Poppins", sans-serif;
-     font-weight: 400;
-     font-style: normal;
-     font-size: 18px;
-     line-height: 25px;
-     color: #282938;
-     margin: 20px 0;
-   }
-   #pricing_card_section .card-list_item  img{
-      margin-right: 10px;
-   }
-   #pricing_card_section .card-list_item_last {
-     opacity: 0.7;
-     font-family: "Poppins", sans-serif;
-     font-weight: 400;
-     font-style: normal;
-     font-size: 18px;
-     line-height: 25px;
-     color: #282938;
-     margin: 20px 0;
-   }
-   #pricing_card_section .card-list_item_last  img{
-      margin-right: 10px;
-   }
-   #pricing_card_section .card-body {
-    position: relative;
-   }
-   #pricing_card_section .card-button {
-    width: 100%;
-     position: absolute;
-     bottom: 0;
-     left: 16%;
-   }
-   
-   #pricing_card_section .card-button .btn {
-     font-family: "Poppins", sans-serif;
-     font-weight: 600;
-     font-style: normal;
-     font-size: 18px;
-     line-height: 28px;
-     color: #F4F6FC;
-     background: #282938;
-     border-radius: 41px;
-     padding: 14px 35px;
-     border: none;
-     margin: 10px 0;
-     cursor: pointer;
-     transition: 0.5s;
-   }
-   #pricing_card_section .card-button .btn:hover {
-     background: #2405F2;
-   }
-   #pricing_card_section .card_center  {
-      background-color: #1C1E53;
-   }
-   #pricing_card_section .card_center .card-body .card_top_text .card-price {
-      color: #ffff;
-   }
-   #pricing_card_section .card_center .card-body .card_top_text .card-price span {
-      color: #FCD980;
-   }
-   #pricing_card_section .card_center .card-body .card_top_text h6 {
-      color: #ffff;
-   }
-   #pricing_card_section .card_center .card-body .card_top_text p {
-      color: #ffff;
-   }
-   #pricing_card_section .card_center .card-body .card-list .card-list_item {
-      color: #ffff;
-   }
+#pricing_card_section {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
 
-   #pricing_card_section .card_center .card-body .card-list .card-list_item_last {
-      color: #ffff;
-      opacity: 1;
-   }
-   #pricing_card_section .card_center .card-body .card-button .btn {
-     background-color: #FCD980;
-      color: #282938;
-   }
-   /*============================
-    Pricing Card section end
+#pricing_card_section .container_flex {
+   column-gap: 45px;
+}
+
+#pricing_card_section .card {
+   padding: 45px;
+   background-color: #F4F6FC;
+   width: auto;
+   height: 745px;
+}
+
+#pricing_card_section .card_top_text {
+   margin: 0 0 70px 0;
+}
+
+#pricing_card_section .card_top_text .card-price {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 40px;
+   line-height: 50px;
+   color: #282938;
+   margin: 10px 0;
+   vertical-align: middle;
+}
+
+#pricing_card_section .card_top_text span {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #2405F2;
+   opacity: 100%;
+   margin: 10px 0;
+   margin-left: 10px;
+   vertical-align: middle;
+}
+
+#pricing_card_section .card_top_text h6 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 25px;
+   line-height: 38px;
+   color: #282938;
+   margin: 10px 0;
+}
+
+#pricing_card_section .card_top_text p {
+   width: 300px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+   margin: 10px 0;
+}
+
+#pricing_card_section .card-list_item {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 25px;
+   color: #282938;
+   margin: 20px 0;
+}
+
+#pricing_card_section .card-list_item img {
+   margin-right: 10px;
+}
+
+#pricing_card_section .card-list_item_last {
+   opacity: 0.7;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 25px;
+   color: #282938;
+   margin: 20px 0;
+}
+
+#pricing_card_section .card-list_item_last img {
+   margin-right: 10px;
+}
+
+#pricing_card_section .card-body {
+   position: relative;
+}
+
+#pricing_card_section .card-button {
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   left: 16%;
+}
+
+#pricing_card_section .card-button .btn {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 28px;
+   color: #F4F6FC;
+   background: #282938;
+   border-radius: 41px;
+   padding: 14px 35px;
+   border: none;
+   margin: 10px 0;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+#pricing_card_section .card-button .btn:hover {
+   background: #2405F2;
+}
+
+#pricing_card_section .card_center {
+   background-color: #1C1E53;
+}
+
+#pricing_card_section .card_center .card-body .card_top_text .card-price {
+   color: #ffff;
+}
+
+#pricing_card_section .card_center .card-body .card_top_text .card-price span {
+   color: #FCD980;
+}
+
+#pricing_card_section .card_center .card-body .card_top_text h6 {
+   color: #ffff;
+}
+
+#pricing_card_section .card_center .card-body .card_top_text p {
+   color: #ffff;
+}
+
+#pricing_card_section .card_center .card-body .card-list .card-list_item {
+   color: #ffff;
+}
+
+#pricing_card_section .card_center .card-body .card-list .card-list_item_last {
+   color: #ffff;
+   opacity: 1;
+}
+
+#pricing_card_section .card_center .card-body .card-button .btn {
+   background-color: #FCD980;
+   color: #282938;
+}
+
+/*============================
+     Card section end
  =============================*/
-   
+/*============================
+                                          Pricing page  end
+                                          =============================*/
+/*============================
+                                          Privecy_Policy page  start
+                                          =============================*/
+/*===============================
+ Privecy_Policy section strart
+ =======================================*/
+#privecy_policy_section {
+   width: 100%;
+   height: auto;
+   margin: 100px 0 150px 0;
+}
+
+#privecy_policy_section .privecy_policy_section_box {
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: row;
+   flex-wrap: wrap;
+}
+
+#privecy_policy_section .privecy_policy_section_box_heading {
+   width: 100%;
+   margin: 100px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: row;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+#privecy_policy_section .privecy_policy_section_box_heading h3 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 40px;
+   line-height: 50px;
+   color: #282938;
+   margin: 20px 0;
+}
+
+#privecy_policy_section .privecy_policy_section_box_heading p {
+   width: 550px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+   margin: 20px 0;
+   text-align: center;
+}
+
+#privecy_policy_section .privecy_policy_section_box_content {
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex: row;
+   flex-wrap: wrap;
+}
+
+#privecy_policy_section .privecy_policy_section_box_content h3 {
+   width: 80%;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 25px;
+   line-height: 38px;
+   color: #282938;
+   margin-bottom: 10px;
+   margin-top: 40px;
+}
+
+#privecy_policy_section .privecy_policy_section_box_content p {
+   width: 100%;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+   margin: 10px 0;
+}
+
+#privecy_policy_section .privecy_policy_section_box_content ul {
+   width: 100%;
+   margin: 10px 0;
+}
+
+#privecy_policy_section .privecy_policy_section_box_content ul li {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 100%;
+   margin: 10px 0;
+   list-style-type: square;
+}
+
+ol,
+ul {
+   padding-left: 1rem;
+}
+
+/* ===============================
+Privecy_Policy section end
+ =======================================*/
+/*============================
+                              blog_page start
+                              =============================*/
+#blog_page_section {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
+
+#blog_page_section .blog_page_flex {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: row;
+   flex-wrap: wrap;
+}
+
+#blog_page_section .blog_Heading {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: row;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+}
+
+#blog_page_section .blog_Heading>div>.opasty_icreas {
+   opacity: 87%;
+
+}
+
+#blog_page_section .blog_Heading h2 {
+   width: 75%;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 48px;
+   line-height: 64px;
+   color: #282938;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+#blog_page_section .blog_Heading p {
+   width: 550px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 1;
+   margin: 20px 0;
+}
+
+#blog_page_section .blog_Heading_img {
+   width: 100%;
+   margin-bottom: 30px;
+}
+
+#blog_page_section .blog_text {
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: row;
+}
+
+#blog_page_section .blog_text p {
+   width: 800px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+   margin: 10px 0;
+   text-align: center;
+}
+
+#blog_page_section .blog_read_more {
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: row;
+}
+
+#blog_page_section .blog_read_more a {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #2405F2;
+   opacity: 0.7;
+   margin: 10px 0;
+   transition: 0.3s ease;
+}
+
+#blog_page_section .blog_read_more a:hover {
+   text-decoration: underline;
+}
+
+/* =========================
+our blog section start
+ ==============================*/
+#our_blog_section {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
+
+.our_blog_Heading {
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: row;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+}
+
+.our_blog_Heading h2 {
+   width: 75%;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 40px;
+   line-height: 64px;
+   color: #282938;
+   text-align: center;
+}
+
+#our_blog_section .our_blog_flex {
+   display: flex;
+   column-gap: 20px;
+   align-items: center;
+   margin-bottom: 20px;
+   flex-wrap: nowrap;
+   flex-direction: row;
+
+}
+
+#our_blog_section .our_blog_flex .card {
+   margin: 0;
+   padding: 0;
+   border: 1px solid #E5EAF4;
+   border-radius: 10px;
+   transition: 0.3s ease;
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+#our_blog_section .our_blog_flex .card:hover {
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+#our_blog_section .card_img_01 {
+   width: 100%;
+   height: 285px;
+   margin-bottom: 20px;
+   background-image: url(../img/blog_page_img_01.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#our_blog_section .card_img_02 {
+   width: 100%;
+   height: 285px;
+   margin-bottom: 20px;
+   background-image: url(../img/blog_page_img_02.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+
+#our_blog_section .card_img_03 {
+   width: 100%;
+   height: 285px;
+   margin-bottom: 20px;
+   background-image: url(../img/blog_page_img_03.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#our_blog_section .card_img_04 {
+   width: 100%;
+   height: 285px;
+   margin-bottom: 20px;
+   background-image: url(../img/blog_page_img_04.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#our_blog_section .card_img_05 {
+   width: 100%;
+   height: 285px;
+   margin-bottom: 20px;
+   background-image: url(../img/blog_page_img_05.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#our_blog_section .card_img_06 {
+   width: 100%;
+   height: 285px;
+   margin-bottom: 20px;
+   background-image: url(../img/blog_page_img_06.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#our_blog_section .card_text span {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   margin: 10px 0;
+   opacity: 0.7;
+}
+
+#our_blog_section .card_text h5 {
+   width: 395px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 22px;
+   line-height: 36px;
+   color: #282938;
+   margin: 10px 0;
+}
+
+#our_blog_section .card_text p {
+   width: 395px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #282938;
+   margin: 10px 0;
+   opacity: 0.7;
+}
+
+#our_blog_section .read_more a {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   margin: 10px 0;
+   opacity: 1;
+   transition: 0.3s ease;
+}
+
+#our_blog_section .read_more img {
+   margin-left: 10px;
+   transition: 0.3s ease;
+}
+
+#our_blog_section .read_more a:hover {
+   color: #2405F2;
+}
+
+/* =========================
+                                       blog page end blog section end
+                                       ==============================*/
+/* =========================
+ contact form start
+ ==============================*/
+#contact_us_form {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
+
+#contact_us_form .contact_us_form_heading {
+   display: flex;
+   column-gap: 20px;
+   align-items: center;
+   margin-bottom: 20px;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+#contact_us_form .contact_us_form_heading h2 {
+   width: 100%;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 40px;
+   line-height: 64px;
+   color: #282938;
+   text-align: center;
+}
+
+#contact_us_form .contact_us_form_heading p {
+   width: 550px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   text-align: center;
+   color: #282938;
+   opacity: 0.7;
+   margin: 20px 0;
+}
+
+p {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+#contact_us_form .contact_us_form_input {
+   width: 85%;
+   height: auto;
+   margin: 0 auto;
+   background-color: #F4F6FC;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   padding: 50px;
+}
+
+#contact_us_form form .form_input {
+   width: 100%;
+   height: auto;
+   margin: 10px 0;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+
+.form_input_inner {
+   column-gap: 20px;
+}
+
+#contact_us_form form .form_input input {
+   width: 100%;
+   height: 35px;
+   padding: 20px;
+   border: 1px solid #e5eaf4;
+   border-radius: 8px;
+   outline: none;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   background-color: #F4F6FC;
+   margin: 10px 0;
+   opacity: 1;
+}
+
+#contact_us_form form p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 1;
+   margin: 10px 0;
+}
+
+#contact_us_form form .form_input input:focus {
+   border: 1px solid #2405F2;
+}
+
+#contact_us_form form .form_input::placeholder {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 20px;
+   color: #282938;
+   opacity: 0.7;
+}
+
+#contact_us_form form .contact_us_form_textarea {
+   width: 100%;
+   height: auto;
+   margin: 10px 0;
+}
+
+#contact_us_form form .form_input textarea::placeholder {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+}
+
+#contact_us_form form .form_input textarea:focus {
+   border: 1px solid #2405F2;
+}
+
+#contact_us_form form .form_input textarea {
+   width: 100%;
+   max-height: 100px;
+   padding: 10px;
+   border: 1px solid #E5EAF4;
+   border-radius: 5px;
+   outline: none;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   margin: 10px 0;
+   opacity: 0.7;
+   background-color: #F4F6FC;
+}
+
+#contact_us_form form #Subject {
+   margin-top: 10px;
+   padding: 10px;
+   border: 1px solid #E5EAF4;
+   border-radius: 5px;
+   outline: none;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 14px;
+   background-color: #F4F6FC;
+}
+
+#contact_us_form form #Subject:focus {
+   border: 1px solid #2405F2;
+}
+
+#contact_us_form form #Subject::placeholder {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+}
+
+#contact_us_form form .contact_us_form_btn {
+   margin: 10px 0;
+}
+
+#contact_us_form .contact_us_form_btn .btn {
+   padding: 12px 32px;
+   background-color: #282938;
+   border-radius: 50px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 32px;
+   color: #FFFFFF;
+   opacity: 1;
+   text-align: left;
+   transition: 0.3s ease;
+}
+
+#contact_us_form .contact_us_form_btn .btn:hover {
+   background-color: #2405F2;
+}
+
+/*===============================
+        our_work_page section strart
+        =======================================*/
+#our_work_heading_section {
+   width: 100%;
+   height: auto;
+   margin-bottom: 100px;
+   padding: 100px 0;
+   background-color: #F4F6FC;
+}
+
+#our_work_heading_section .container_flex {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#our_work_heading_section .our_work_heading_top {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#our_work_heading_section .our_work_heading_top h4 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+}
+
+#our_work_heading_section .our_work_heading_top h2 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 40px;
+   line-height: 64px;
+   color: #282938;
+}
+
+#our_work_heading_section .our_work_heading_top p {
+   width: 720px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+   text-align: center;
+}
+
+#our_work_heading_section .our_work_heading_sosatial_icon img {
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+/*===============================
+         our_work_hero section start
+         =======================================*/
+#our_work_hero_section {
+   width: 100%;
+   height: auto;
+   margin-bottom: 100px;
+}
+
+#our_work_hero_section .our_work_hero_title {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#our_work_hero_section .our_work_hero_title ul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#our_work_hero_section .our_work_hero_title ul .active {
+   color: #2405F2;
+}
+
+#our_work_hero_section .our_work_hero_title ul li {
+   margin-right: 20px;
+   list-style: none;
+}
+
+#our_work_hero_section .our_work_hero_title ul li a {
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+   margin-right: 20px;
+}
+
+#our_work_hero_section .our_work_hero_title ul li a:hover {
+   color: #2405F2;
+}
+
+#our_work_hero_section .our_work_hero_box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   column-gap: 20px;
+}
+
+#our_work_hero_section .our_work_hero_box .our_work_hero_box_inner {
+   width: 400px;
+   height: auto;
+   margin: 10px 0;
+   border-radius: 4px;
+   padding: 8px;
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+   transition: 0.3s ease;
+}
+
+#our_work_hero_section .our_work_hero_box .our_work_hero_box_inner:hover {
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+#our_work_hero_section .our_work_hero_box .our_work_hero_box_img img {
+   width: 100%;
+   height: 200px;
+}
+
+#our_work_hero_section .our_work_hero_box .our_work_hero_box_inner h3 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 30px;
+   line-height: 40px;
+   color: #282938;
+   margin: 15px 0;
+}
+
+#our_work_hero_section .our_work_hero_box .our_work_hero_box_inner p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+   margin: 10px 0;
+}
+
+#our_work_hero_section .our_work_hero_box .our_work_hero_box_inner a {
+   color: #282938;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   opacity: 1;
+   transition: 0.3s ease;
+}
+
+#our_work_hero_section .our_work_hero_box .our_work_hero_box_inner a:hover {
+   color: #2405F2;
+}
+
+/*===============================
+         our_work_hero section end
+         =======================================*/
+/*===============================
+         CTA Section section start
+         =======================================*/
+#cta_section {
+   width: 100%;
+   height: auto;
+   margin-bottom: 100px;
+}
+
+#cta_section .cta_flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   row-gap: 22px;
+}
+
+#cta_section h2 {
+   width: 720px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 40px;
+   line-height: 54px;
+   color: #282938;
+   text-align: center;
+}
+
+#cta_section p {
+   width: 575px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+}
+
+#cta_section a {
+   display: inline-block;
+   font-size: 16px;
+   line-height: 32px;
+   padding: 10px 40px;
+   border-radius: 50px;
+   font-weight: 400;
+   color: #1B1C2B;
+   background-color: #FCD980;
+   transition: 0.4s ease;
+}
+
+#cta_section a:hover {
+   background-color: #2405F2;
+   color: #fff;
+}
+
+/*===============================
+         CTA Section section end
+         =======================================*/
+/*===============================
+                     Read Blog page start
+                     =======================================*/
+/*===============================
+        Blog Heading start
+         =======================================*/
+#Blog_Heading {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
+
+#Blog_Heading .blog_heading_flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+#Blog_Heading h2 {
+   width: 720px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 40px;
+   line-height: 54px;
+   color: #282938;
+   text-align: center;
+   text-align: center;
+}
+
+#Blog_Heading p {
+   text-align: center;
+}
+
+#Blog_Heading span {
+   width: 575px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+}
+
+/*===============================
+         Blog Heading section end
+         =======================================*/
+/*===============================
+         Blog Body section start
+         =======================================*/
+#Blog_Body {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
+
+#Blog_Body .blog_body_flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+#Blog_Body .blog_body_top img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+}
+
+#Blog_Body .blog_body_bottom h3 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 36px;
+   color: #282938;
+   margin: 20px 0;
+}
+
+#Blog_Body .blog_body_bottom p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+   margin: 20px 0;
+}
+
+#Blog_Body .blog_body_bottom img {
+   width: 100%;
+   height: auto;
+}
+
+#Blog_Body .blog_body_bottom ul li {
+   margin: 10px 0;
+   list-style-type: square;
+   opacity: 0.7;
+
+}
+
+
+/*===============================
+         Blog Body section end
+         =======================================*/
+/*===============================
+                                                Read Case Studies page start
+                                                   =======================================*/
+/*===============================
+        Read Case Studies Blog Header start
+         =============================*/
+#blog_header {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
+
+#blog_header .blog_header_flex {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+#blog_header h3 {
+   width: 800px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 35px;
+   line-height: 54px;
+   color: #282938;
+   text-align: left;
+}
+
+#blog_header h6 {
+   width: 800px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   text-align: left;
+   opacity: 0.7;
+}
+
+
+#blog_header p {
+   width: 800px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   text-align: left;
+   opacity: 0.7;
+}
+
+/*===============================
+         Read Case Studies Blog Header end
+         =======================================*/
+/*===============================
+        Main image_section start
+         =======================================*/
+#main_image_section {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
+
+#main_image_section .main_image_flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+#main_image_section .main_image_flex img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+}
+
+#main_image_section .main_image_flex .main_image_2 {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   column-gap: 220px;
+   margin-top: 30px;
+   border-bottom: 1px solid #28293833;
+   box-shadow: 0px 1px 0 0 #28293829;
+   opacity: 0.8;
+}
+
+#main_image_section .main_image_flex .main_image_2 img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+}
+
+/*===============================
+         Main image_section end
+         =======================================*/
+/*===============================
+         Article_section end_section end
+         =======================================*/
+#article_section {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
+
+#article_section article {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+
+#article_section article h3 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 36px;
+   text-align: left;
+   color: #282938;
+   margin: 20px 0;
+}
+
+#article_section article p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #282938;
+   opacity: 0.7;
+   text-align: left;
+   margin: 20px 0;
+}
+
+#article_section article img {
+   width: 100%;
+   height: auto;
+   margin: 20px 0;
+}
+
+#article_section article ul li {
+   margin: 10px 0;
+   list-style-type: square;
+   opacity: 0.7;
+   text-align: left;
+}
+
+/*===============================
+         Article_section end_section end
+         =======================================*/
+/*===============================
+         Keywords Section start
+         =======================================*/
+#keywords_section {
+   width: 100%;
+   height: auto;
+   margin: 100px 0;
+}
+
+#keywords_section .keywords_box {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   border-top: 1px solid #28293833;
+   border-bottom: 1px solid #28293833;
+   padding: 20px 0;
+}
+#keywords_section .keywords_box ul {
+   margin-bottom: 0rem;
+}
+#keywords_section .keywords_box ul li {
+  margin:0 30px;
+  float: left;
+}
+#keywords_section .keywords_box ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 35px;
+  color: #282938;
+  opacity: 1;
+  cursor: pointer;
+}
+#keywords_section .keywords_box ul .active {
+   color: #2405F2;
+}
+
+
+
+/*===============================
+         Keywords Section end
+         =======================================*/
